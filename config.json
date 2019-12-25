@@ -1,0 +1,13 @@
+{
+  "taskdb": "mysql+taskdb://root:xxx@127.0.0.1:3306/spiderdb",
+  "projectdb": "mysql+projectdb://root:xxx@127.0.0.1:3306/spiderdb",
+  "resultdb": "mysql+resultdb://root:xxx@127.0.0.1:3306/spiderdb",
+  "webui": {
+    "username": "admin",
+    "password": "xxx",
+    "need-auth": true
+  },
+  "scheduler":{
+    "delete-time":3
+  }
+}

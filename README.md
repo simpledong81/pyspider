@@ -65,6 +65,10 @@ Contribute
 
 TODO
 ----
+**ImportError: pycurl: libcurl link-time ssl backend (openssl) is different from compile-time ssl backend (none/other)**
+
+pip3 uninstall pycurl
+pip3 install --compile --install-option="--with-openssl" pycurl
 
 ### v0.4.0
 
